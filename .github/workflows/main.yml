@@ -23,5 +23,5 @@ jobs:
       - name: "install Snyk"
         shell: bash
         run: |
-          npm install -g Snyk
+          npm install -g snyk
             
