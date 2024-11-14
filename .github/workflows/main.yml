@@ -19,3 +19,9 @@ jobs:
 
       - name: Run test
         run: pytest 
+
+      - name: "install Snyk"
+        shell: bash
+        run: |
+          npm install -g Snyk
+            
